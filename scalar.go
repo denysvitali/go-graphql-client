@@ -29,6 +29,8 @@ type (
 	// Int can represent values between -(2^31) and 2^31 - 1.
 	Int int32
 
+	Long int64
+
 	// String represents textual data as UTF-8 character sequences.
 	// This type is most often used by GraphQL to represent free-form
 	// human-readable text.
